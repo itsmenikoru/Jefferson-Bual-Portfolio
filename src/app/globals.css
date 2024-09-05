@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --primary-color: #393939;
+  --secondary-color: #fa8a2e;
+  --bg-primary: #eae9e5;
+  --bg-secondary: #ffffff;
+  --bg-tertiary: #393939;
+  --bg-button-hover: #fa7000ef;
+  --bg-hover: #dbdad4;
+}
+html {
+  scroll-behavior: smooth;
+}
+
+.body {
+  background-color: var(--bg-primary);
+}
+header {
+  position: sticky;
+  top: 0;
+  width: 100%;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Optional shadow */
+  transition: transform 0.3s ease; /* Smooth transition for hiding/showing */
+}

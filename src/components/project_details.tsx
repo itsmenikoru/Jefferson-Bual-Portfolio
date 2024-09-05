@@ -1,0 +1,204 @@
+'use client';
+import Image from 'next/image';
+import Certified from './certified';
+import { useState } from 'react';
+import { FaGithub } from 'react-icons/fa';
+import Link from 'next/link';
+
+export default function ProjectDetails() {
+  const [currentIndex, setCurrentIndex] = useState(0);
+
+  const projectDetails = [
+    {
+      id: 1,
+      src: '/mobile_ikomyut_img.png',
+      alt: 'mobile_ikomyut_img',
+      badge: 'Mobile',
+      title: '  Smart Transit System (i-Komyut)',
+      description:
+        ' The Android-Based Smart Transit System aims to solve the problems encountered by commuters in the city of Cabuyao, Laguna and provide a more reliable and efficient means of transportation from point to point. Additionally, the system aims to aid the insufficient support on the commuters side in the city.',
+      tools: [
+        { src: '/java.png', alt: 'java' },
+        { src: '/react_icon.png', alt: 'react' },
+        { src: '/node_icon.png', alt: 'react' },
+        { src: '/android_studio.png', alt: 'androidstudio' },
+        { src: '/vscode.png', alt: 'vscode' },
+        { src: '/github_orange_icon.png', alt: 'github' },
+        { src: '/firebase_icon.png', alt: 'firbase' },
+      ],
+    },
+    {
+      id: 2,
+      src: '/web_project1_img.png',
+      alt: 'web-project1_img',
+      badge: 'Website',
+      title: 'Student  Academic Performance Monitoring System',
+      description:
+        ' A web-based student academic performance monitoring systems goal is to provide a centralized platform for academic institutions to monitor and manage their students academic performance. The system provides real-time data on student performance and progress to teachers, administrators, and other authorized personnel, allowing them to make informed decisions about student learning and support.',
+      tools: [
+        { src: '/javascript_icon.png', alt: 'javascript_icon' },
+        { src: '/php.png', alt: 'php' },
+        { src: '/vscode.png', alt: 'vscode' },
+        { src: '/github_orange_icon.png', alt: 'github' },
+        { src: '/mysql_icon.png', alt: 'mysql' },
+      ],
+    },
+    {
+      id: 3,
+      src: '/baya-mobile-project.png',
+      alt: 'baya-mobile-project',
+      badge: 'Mobile',
+      title: 'Baybayin Quiz Game using CNN algorithm',
+      description:
+        'A mobile educational app aimed at promoting the Baybayin script, an ancient Philippine writing system. The app features interactive lessons, quizzes, writing exercises, and a notepad, using Convolutional Neural Networks for improved character recognition.',
+      tools: [
+        { src: '/java.png', alt: 'java' },
+        { src: '/python_icon.png', alt: 'python_icon' },
+        { src: '/android_studio.png', alt: 'androidstudio' },
+        { src: '/github_orange_icon.png', alt: 'github' },
+      ],
+    },
+    {
+      id: 4,
+      src: '/web_project2_img.png',
+      alt: 'web_project2_img',
+      badge: 'Website',
+      title: 'Data-Driven Brgy. Monitoring System',
+      description:
+        'The Data-Driven Barangay Monitoring System improves local governance by utilizing real-time data collection and analysis, enhancing decision-making, ensuring efficient resource allocation, and improving community services, fostering transparency, accountability, and enhancing community welfare and safety.',
+      tools: [
+        { src: '/laravel_icon.png', alt: 'laravel' },
+        { src: '/python_icon.png', alt: 'python_icon' },
+        { src: '/vscode.png', alt: 'androidstudio' },
+        { src: '/github_orange_icon.png', alt: 'github' },
+        { src: '/mysql_icon.png', alt: 'mysql' },
+      ],
+    },
+  ];
+
+  const handleNext = () => {
+    if (currentIndex < projectDetails.length - 1) {
+      setTimeout(() => {
+        setCurrentIndex(currentIndex + 1);
+      }, 300);
+    }
+  };
+
+  const handlePrevious = () => {
+    if (currentIndex > 0) {
+      setTimeout(() => {
+        setCurrentIndex(currentIndex - 1);
+      }, 300);
+    }
+  };
+
+  return (
+    <div className='flex flex-col h-full'>
+      <div className='flex flex-col lg:flex-none lg:grid lg:grid-cols-2 gap-3'>
+        <div className='flex w-full items-center justify-center '>
+          <div className='w-[200px] md:w-[400px] lg:w-[400px] '>
+            <Image
+              src={projectDetails[currentIndex].src}
+              width={500}
+              height={0}
+              alt={projectDetails[currentIndex].alt}
+              className=' animate-scaleIn'
+            />
+          </div>
+        </div>
+        <div className='h-full flex flex-col gap-2'>
+          <div className='flex flex-col gap-3 w-full'>
+            <Certified badge={projectDetails[currentIndex].badge} />
+            <h1 className='font-semibold xl:text-[25px] '>
+              {projectDetails[currentIndex].title}
+            </h1>
+          </div>
+          <div className='flex '>
+            <li></li>
+
+            <h1 className='text-[11px] xl:text-[16px] leading-7 '>
+              {projectDetails[currentIndex].description}
+            </h1>
+          </div>
+          <div className='w-full flex flex-col gap-5'>
+            <h1 className='font-semibold'>Tools:</h1>
+
+            <div className='flex flex-row gap-3 items-center'>
+              {projectDetails[currentIndex].tools.map((tools, index) => (
+                <div
+                  key={index}
+                  className=' transition-all transform hover:px-3 hover:scale-125 duration-300'>
+                  <div className='h-[25px] w-[25px]  flex'>
+                    <Image
+                      src={tools.src}
+                      width={30}
+                      height={0}
+                      alt={tools.alt}
+                    />
+                  </div>
+                </div>
+              ))}
+            </div>
+            <Link
+              href={`/project/${projectDetails[currentIndex].id}`}
+              className='p-3 w-fit text-[11px] border-secondary border-2 text-black rounded-lg  mb-10 lg:mb-0 hover:bg-button_hover transition-all transform hover:px-6 hover:scale-100 duration-300'>
+              See project
+            </Link>
+          </div>
+        </div>
+      </div>
+      {/* pagination */}
+      <div className='Pagination relative h-full w-full mt-10'>
+        <div className='absolute bottom-0 w-full h-fit'>
+          <div className='flex flex-row justify-center items-center '>
+            <nav className='flex items-center gap-x-1' aria-label='Pagination'>
+              <button
+                type='button'
+                className='min-h-[38px] min-w-[38px] py-2 px-2.5 inline-flex justify-center items-center gap-x-1.5 text-sm rounded-lg text-gray-800 hover:bg-gray-100 focus:outline-none focus:bg-gray-100 disabled:opacity-50 disabled:pointer-events-none'
+                aria-label='Previous'
+                onClick={handlePrevious}
+                disabled={currentIndex === 0}>
+                <svg
+                  className='shrink-0 size-3.5'
+                  xmlns='http://www.w3.org/2000/svg'
+                  width='24'
+                  height='24'
+                  viewBox='0 0 24 24'
+                  fill='none'
+                  stroke='currentColor'
+                  strokeWidth='2'
+                  strokeLinecap='round'
+                  strokeLinejoin='round'>
+                  <path d='m15 18-6-6 6-6'></path>
+                </svg>
+                <span>Previous</span>
+              </button>
+              <h1>{currentIndex + 1}</h1>
+              <button
+                type='button'
+                className='min-h-[38px] min-w-[38px] py-2 px-2.5 inline-flex justify-center items-center gap-x-1.5 text-sm rounded-lg text-gray-800 hover:bg-gray-100 focus:outline-none focus:bg-gray-100 disabled:opacity-50 disabled:pointer-events-none'
+                aria-label='Next'
+                onClick={handleNext}
+                disabled={currentIndex === projectDetails.length - 1}>
+                <span>Next</span>
+                <svg
+                  className='shrink-0 size-3.5'
+                  xmlns='http://www.w3.org/2000/svg'
+                  width='24'
+                  height='24'
+                  viewBox='0 0 24 24'
+                  fill='none'
+                  stroke='currentColor'
+                  strokeWidth='2'
+                  strokeLinecap='round'
+                  strokeLinejoin='round'>
+                  <path d='m9 18 6-6-6-6'></path>
+                </svg>
+              </button>
+            </nav>
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+}

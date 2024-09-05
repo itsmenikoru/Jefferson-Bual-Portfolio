@@ -1,0 +1,38 @@
+'use client';
+import { FaGithub, FaFacebook } from 'react-icons/fa';
+import { FaLinkedin } from 'react-icons/fa6';
+
+export default function Socials() {
+  return (
+    <div className='flex justify-center items-center gap-3 py-2 px-3 px-5 xl:px-20  w-fit mt-5 border-secondary border-2 rounded-2xl'>
+      <div className='transition-all transform hover:px-6 hover:scale-125 duration-300'>
+        <div className='rounded-full p-2 hover:bg-bg_hover duration-300'>
+          <FaGithub
+            size={25}
+            onClick={() => window.open('https://github.com/cocokhyle')}
+          />
+        </div>
+      </div>
+      <div className='transition-all transform hover:px-6 hover:scale-125 duration-300'>
+        <div className='rounded-full p-2 hover:bg-bg_hover duration-300'>
+          <FaLinkedin
+            size={25}
+            onClick={() =>
+              window.open('https://www.linkedin.com/in/yaneskhylematthewp/')
+            }
+          />
+        </div>
+      </div>
+      <div className='transition-all transform hover:px-6 hover:scale-125  duration-300 '>
+        <div className='rounded-full p-2 hover:bg-bg_hover duration-300'>
+          <FaFacebook
+            size={25}
+            onClick={() =>
+              window.open('https://www.facebook.com/YanesPogii.ko/')
+            }
+          />
+        </div>
+      </div>
+    </div>
+  );
+}
