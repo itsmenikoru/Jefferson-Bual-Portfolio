@@ -8,7 +8,7 @@ export default async function Project({
   params: { projectId: number };
 }) {
   const response = await fetch(
-    `https://my-portfolio-cocokhyles-projects.vercel.app/project/${params.projectId}/api`,
+    `https://jefferson-bual-portfolio.vercel.app/project/${params.projectId}/api`,
     {
       next: { revalidate: 0.5 },
     }
