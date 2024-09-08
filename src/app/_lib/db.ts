@@ -1,34 +1,7 @@
 export const project_details = [
+  
   {
     id: 1,
-    name: 'Smart Transit System(i-Komyut)',
-    link: [
-      '1dEAIohJFg39ZR4yFP_3WLeaCXrP9_bEM',
-      '1l2FmlPhjw03BUcRjGzEyHJg55pT4RACx',
-      '1kJ2hIsxr1j_VpCnLla7LRqGHIsx9gjdl',
-      '1Ih0drM65peb1F3OsJXrjpYv_u7d5au96',
-      '1hPfutUpjMD9O96JBO4KSd62nsWzD-6r3',
-      '18JTcZVoYMRFLVAlzXTQ6rsJU0F7ABJm1',
-      '1qRFoSa_Qg0NLz_12eDqLQOWv8Od9vWE4',
-      '1G8zVHQcR6MosyuTmf1hsfILkZq4uF8QC',
-      '1RmCMyl6p6dFe6LMqb75oGvA5LUTn-BDk',
-      '1RbuWi_6AiRUn99n7UPv8iVek7cHUyX6a',
-      '1RaL-N-gbnTIe6OvN1xYyfLMf08YUAVvi',
-      '1RSqhnC8I01ckXhEszTTRCPTvBmpBh1pg',
-      '1RRU6e5q3oQoSvFwVrX_YuaTraJZDzN_J',
-      '1RNe684uDcsp_3AOv9IkEaRN8KfujwYJN',
-      '1RIYJQYQYsanwDYJuKQPUig3ZQ9p3cUlL',
-      '1RIPFO1uHqYCwZAGftRtvL-DpNc0UHDKv',
-      '1RHduc7pRaUjmt1Wii1UGDk7TFhaCWtNA',
-      '1REhu3f3Gz6_pT2Hs334pHIZvz0dyW9r1',
-      '1RBPbtDZK-ZRmaUBEy40vrqI-o8y5OX1K',
-      '1R6JQEEwzYiylA2BWwGX2SmiN_nQI8aAp',
-    ],
-    type: 'mobile',
-    github_link: 'https://github.com/cocokhyle/Final_i-Komyut',
-  },
-  {
-    id: 2,
     name: 'Student Monitoring System',
     link: [
       '1fJPClRSSf2-biD5ucry2-Ddn6JR3n0QY',
@@ -42,7 +15,7 @@ export const project_details = [
     github_link: 'https://github.com/cocokhyle/Student-Monitoring-System',
   },
   {
-    id: 3,
+    id: 2,
     name: 'Baybayin Quiz Game',
     link: [
       '1TKlxOKQNZkazynes-OaYzz64IqmR3_9V',
@@ -66,7 +39,7 @@ export const project_details = [
     github_link: 'https://github.com/cocokhyle/BaybayiNatin',
   },
   {
-    id: 4,
+    id: 3,
     name: 'Brgy. Monitoring System',
     link: [
       '1YNSdJceEyLU5wwyZi3a7Rc38sufTdlZu',
