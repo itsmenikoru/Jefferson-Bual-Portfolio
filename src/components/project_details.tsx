@@ -15,7 +15,7 @@ export default function ProjectDetails() {
       src: '/web_project1_img.png',
       alt: 'web-project1_img',
       badge: 'Website',
-      title: 'Student  Academic Performance Monitoring System',
+      title: 'Student Academic Performance Monitoring System',
       description:
         ' A web-based student academic performance monitoring systems goal is to provide a centralized platform for academic institutions to monitor and manage their students academic performance. The system provides real-time data on student performance and progress to teachers, administrators, and other authorized personnel, allowing them to make informed decisions about student learning and support.',
       tools: [
