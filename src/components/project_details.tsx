@@ -19,11 +19,11 @@ export default function ProjectDetails() {
       description:
         ' A web-based student academic performance monitoring systems goal is to provide a centralized platform for academic institutions to monitor and manage their students academic performance. The system provides real-time data on student performance and progress to teachers, administrators, and other authorized personnel, allowing them to make informed decisions about student learning and support.',
       tools: [
-        { src: '/javascript_icon.png', alt: 'javascript_icon' },
+        
         { src: '/php.png', alt: 'php' },
-        { src: '/vscode.png', alt: 'vscode' },
-        { src: '/github_orange_icon.png', alt: 'github' },
-        { src: '/mysql_icon.png', alt: 'mysql' },
+        { src: '/sql.png', alt: 'sql' },
+        { src: '/github.png', alt: 'github' },
+       
       ],
     },
     {
@@ -36,9 +36,8 @@ export default function ProjectDetails() {
         'A mobile educational app aimed at promoting the Baybayin script, an ancient Philippine writing system. The app features interactive lessons, quizzes, writing exercises, and a notepad, using Convolutional Neural Networks for improved character recognition.',
       tools: [
         { src: '/java.png', alt: 'java' },
-        { src: '/python_icon.png', alt: 'python_icon' },
-        { src: '/android_studio.png', alt: 'androidstudio' },
-        { src: '/github_orange_icon.png', alt: 'github' },
+        { src: '/python.png', alt: 'python_icon' },
+        { src: '/github.png', alt: 'github' },
       ],
     },
     {
@@ -50,11 +49,11 @@ export default function ProjectDetails() {
       description:
         'The Data-Driven Barangay Monitoring System improves local governance by utilizing real-time data collection and analysis, enhancing decision-making, ensuring efficient resource allocation, and improving community services, fostering transparency, accountability, and enhancing community welfare and safety.',
       tools: [
-        { src: '/laravel_icon.png', alt: 'laravel' },
-        { src: '/python_icon.png', alt: 'python_icon' },
-        { src: '/vscode.png', alt: 'androidstudio' },
-        { src: '/github_orange_icon.png', alt: 'github' },
-        { src: '/mysql_icon.png', alt: 'mysql' },
+        { src: '/sql.png', alt: 'laravel' },
+        { src: '/python.png', alt: 'python_icon' },
+        { src: '/excel.png', alt: 'excel' },
+        { src: '/power.png', alt: 'powerbi' },
+        { src: '/github.png', alt: 'github' },
       ],
     },
   ];

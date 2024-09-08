@@ -17,7 +17,7 @@ export default function Footer() {
               <div className='flex flex-row gap-2 md:items-center md:justify-center'>
                 <div className='hidden md:flex'>
                   <Image
-                    src='/phone_icon.png'
+                    src='/call.png'
                     width={20}
                     height={0}
                     alt='Logo'
@@ -31,7 +31,7 @@ export default function Footer() {
               <div className='flex flex-row gap-2 md:items-center md:justify-center'>
                 <div className='hidden md:flex'>
                   <Image
-                    src='/mail_icon.png'
+                    src='/mail.png'
                     width={25}
                     height={0}
                     alt='Logo'
@@ -46,7 +46,7 @@ export default function Footer() {
               <div className='flex flex-row gap-2 md:items-center md:justify-center'>
                 <div className='hidden md:flex'>
                   <Image
-                    src='/location_icon.png'
+                    src='/address.png'
                     width={20}
                     height={0}
                     alt='Logo'
@@ -112,19 +112,9 @@ export default function Footer() {
         </div>
         <div className='w-full bg-[#595959] h-[1px]'></div>
         <div className='p-3 text-white text-[10px] md:text-[13px] flex items-center justify-center gap-3 bg-bg_tertiary'>
-          <h1>All Rights Reserved 2024, Powered by</h1>
-          <Image
-            src={'/react_icon.png'}
-            width={20}
-            height={0}
-            alt='facebook icon'
-          />
-          <Image
-            src={'/next_icon.png'}
-            width={20}
-            height={0}
-            alt='facebook icon'
-          />
+          <h1>All Rights Reserved 2024</h1>
+        
+         
         </div>
       </div>
     </footer>
