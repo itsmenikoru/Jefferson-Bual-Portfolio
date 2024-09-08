@@ -8,8 +8,8 @@ export default function Footer() {
       <div className='bg-bg_tertiary h-fit '>
         <div className='sm:grid sm:grid-cols-2 grid-cols-none flex flex-col gap-10  p-5 xl:p-10 text-white'>
           <div className='flex items-center justify-center'>
-            <div className='w-[80px] md:w-[80px] mb-5 '>
-              <Image src='/logo-wo-text.png' width={80} height={0} alt='Logo' />
+            <div className='w-[100px] md:w-[80px] mb-5 '>
+              <Image src='/jeff_w_text_logo.png' width={80} height={0} alt='Logo' />
             </div>
           </div>
           <div className='flex flex-col gap-5 justify-center items-center sm:justify-start sm:items-start col-span-1'>
@@ -25,7 +25,7 @@ export default function Footer() {
                 </div>
                 <div className='flex flex-row'>
                   <li className='text-secondary md:hidden'></li>
-                  <h1>(+63) 9107514863</h1>
+                  <h1>(+63) 9286199959</h1>
                 </div>
               </div>
               <div className='flex flex-row gap-2 md:items-center md:justify-center'>
@@ -39,7 +39,7 @@ export default function Footer() {
                 </div>
                 <div className='flex flex-row'>
                   <li className='text-secondary md:hidden'></li>
-                  <h1>yaneskhylematthew02@gmail.com</h1>
+                  <h1>bualjefferson64@gmail.com</h1>
                 </div>
               </div>
 

@@ -6,7 +6,7 @@ export default function Certified(props: any) {
       <div className='flex   items-center gap-2'>
         <div className='min-w-[13px] w-[11px] sm:w-[13px] md:w-[14px] lg:w-[16px] xl:w-[18px]'>
           <Image
-            src={'/certified_icon.png'}
+            src={'/check.png'}
             width={25}
             height={0}
             alt='certified icon'

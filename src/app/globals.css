@@ -4,11 +4,11 @@
 
 :root {
   --primary-color: #393939;
-  --secondary-color: #fa8a2e;
-  --bg-primary: #eae9e5;
+  --secondary-color: rgb(112, 167, 245);
+  --bg-primary: white;
   --bg-secondary: #ffffff;
   --bg-tertiary: #393939;
-  --bg-button-hover: #fa7000ef;
+  --bg-button-hover: rgb(8, 109, 249);
   --bg-hover: #dbdad4;
 }
 html {

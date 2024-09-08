@@ -14,14 +14,14 @@ export default function LandingPage() {
           <div className='flex flex-col justify-center items-center h-full relative'>
             <div className=' lg:p-5 p-5 '>
               <div className='flex gap-1 items-center animate-slideInLeft1'>
-                <Certified badge='Full Stack Developer' />
+                <Certified badge='Data Analyst' />
               </div>
               <div>
                 <h1 className='font-bold xl:text-[50px] lg:text-[40px] md:text-[30px] text-[30px] line-clamp-none m-0 animate-slideInLeft2'>
                   Hello! I ‘m
                 </h1>
-                <h1 className='font-bold xl:text-[80px] lg:text-[50px] md:text-[45px] text-[45px] m-0 animate-slideInLeft3'>
-                  Khyle Yanes
+                <h1 className='font-bold xl:text-[70px] lg:text-[50px] md:text-[45px] text-[45px] m-0 animate-slideInLeft3'>
+                  Jefferson Bual
                 </h1>
                 <div className=' animate-slideInLeft4'>
                   <TypeAnimation />
@@ -58,7 +58,7 @@ export default function LandingPage() {
           <div className='hidden md:flex w-full justify-center items-center'>
             <div className=' justify-center items-center mt-20 h-full lg:w-[500px] 2xl:w-[650px] transition-all transform hover:px-6 hover:scale-125 duration-300'>
               <Image
-                src={'/profile.png'}
+                src={'/profile_pic.png'}
                 width={650}
                 height={0}
                 alt='profile'

@@ -24,29 +24,33 @@ export default function AboutPage() {
                   year='2020 - 2024'
                   description='Pamantasan ng Cabuyao(UC)'
                 />
-                <Details
-                  title='Bachelor of Science in Computer Science'
-                  year='2020 - 2024'
-                  description='Pamantasan ng Cabuyao(UC)'
-                />
+                
               </div>
               <div className='flex flex-col gap-3 '>
                 <DetailsTitle title='Specialization' bg_color='black' />
                 <Details
-                  title='Mobile Development'
+                  title='Machine Learning'
                   isHide='true'
-                  description='Specialized in developing interactive and functional mobile applications.'
+                  description='Specialized in applying simple predictive models to forecast trends and make recommendations.'
                 />
                 <Details
-                  title='Web Development'
+                  title='Statistical Analysis'
                   isHide='true'
-                  description='Specialized in developing interactive and functional web applications.'
+                  description='Specialized in using tools like Excel and Python libararies for statistical calculations.'
                 />
                 <Details
-                  title='UI/UX'
+                  title='Data Visiualization'
                   isHide='true'
-                  description='Specialized in creating visual appealing and user centered designs including brandings, assets, images and etc.'
+                  description='Specialized in presenting data visually using graphs, charts, and dashboards.'
                 />
+                <Details
+                  title='Database Management'
+                  isHide='true'
+                  description='Specialized in SQL for querying, joining, and aggregating data from databases.'
+                />
+                
+                
+                
               </div>
             </div>
           </div>

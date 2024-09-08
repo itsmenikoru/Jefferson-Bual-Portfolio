@@ -11,77 +11,73 @@ export default function SkillsExpPage() {
 
   const experience = [
     {
-      title: 'Front End Web Developer',
+      title: 'Back End Web Developer',
       year: '2024',
       description: 'Pixel8 Web Solutions & Consultancy Inc.',
     },
     {
-      title: 'Quality Assurance Specialist',
-      year: '2024',
-      description: 'Pixel8 Web Solutions & Consultancy Inc.',
-    },
-    {
-      title: 'Project-based Software Developer  ',
+      title: 'Project-based Data Analyst',
       year: '2023 - 2024',
       description: 'Client based projects',
     },
   ];
   const frameworks = [
     {
-      src: '/github_orange_icon.png',
+      src: '/excel.png',
       alt: 'react',
-      title: 'Git',
+      title: 'Microsoft Excel',
       description:
-        'A platform for version control and collaboration, enabling developers to host and review code.',
+        '',
     },
     {
-      src: '/react_icon.png',
+      src: '/power.png',
       alt: 'react',
-      title: 'React JS',
+      title: 'Power BI',
       description:
-        'A JavaScript library for building user interfaces, emphasizing component-based architecture and declarative code.',
+        '',
     },
     {
-      src: '/next_icon.png',
+      src: '/sql.png',
       alt: 'react',
-      title: 'Next JS',
+      title: 'MySQL',
       description:
-        'A React framework for building server-side rendered and static web applications with enhanced performance.',
+        '',
     },
     {
-      src: '/node_icon.png',
+      src: '/python.png',
       alt: 'react',
-      title: 'Node JS',
+      title: 'Python',
       description:
-        'A runtime environment for executing JavaScript on the server, enabling scalable network applications.',
+        '',
+    },
+    
+    {
+      src: '/gpt.png',
+      alt: 'react',
+      title: 'Chat GPT',
+      description:
+        '',
     },
     {
-      src: '/laravel_icon.png',
+      src: '/github.png',
       alt: 'react',
-      title: 'Laravel',
+      title: 'Github',
       description:
-        'A PHP framework with expressive syntax, simplifying web application development with built-in features and tools.',
+        '',
     },
     {
-      src: '/postgres_icon.png',
+      src: '/php.png',
       alt: 'react',
-      title: 'Postgres Sql',
+      title: 'PHP',
       description:
-        'An open-source relational database system known for its extensibility, standards compliance, and advanced SQL features.',
+        '',
     },
     {
-      src: '/mysql_icon.png',
+      src: '/java.png',
       alt: 'react',
-      title: 'My Sql',
+      title: 'Java',
       description:
-        'A widely-used open-source relational database system, renowned for its reliability and ease of use.',
-    },
-    {
-      src: '/firebase_icon.png',
-      alt: 'react',
-      title: 'Firebase Sql',
-      description:
-        'A NoSQL cloud database from Google, offering real-time data synchronization across clients and seamless backend integration.',
+        '',
     },
   ];
 

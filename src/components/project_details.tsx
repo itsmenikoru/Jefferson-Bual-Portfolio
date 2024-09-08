@@ -9,26 +9,9 @@ export default function ProjectDetails() {
   const [currentIndex, setCurrentIndex] = useState(0);
 
   const projectDetails = [
+    
     {
       id: 1,
-      src: '/mobile_ikomyut_img.png',
-      alt: 'mobile_ikomyut_img',
-      badge: 'Mobile',
-      title: '  Smart Transit System (i-Komyut)',
-      description:
-        ' The Android-Based Smart Transit System aims to solve the problems encountered by commuters in the city of Cabuyao, Laguna and provide a more reliable and efficient means of transportation from point to point. Additionally, the system aims to aid the insufficient support on the commuters side in the city.',
-      tools: [
-        { src: '/java.png', alt: 'java' },
-        { src: '/react_icon.png', alt: 'react' },
-        { src: '/node_icon.png', alt: 'react' },
-        { src: '/android_studio.png', alt: 'androidstudio' },
-        { src: '/vscode.png', alt: 'vscode' },
-        { src: '/github_orange_icon.png', alt: 'github' },
-        { src: '/firebase_icon.png', alt: 'firbase' },
-      ],
-    },
-    {
-      id: 2,
       src: '/web_project1_img.png',
       alt: 'web-project1_img',
       badge: 'Website',
@@ -44,7 +27,7 @@ export default function ProjectDetails() {
       ],
     },
     {
-      id: 3,
+      id: 2,
       src: '/baya-mobile-project.png',
       alt: 'baya-mobile-project',
       badge: 'Mobile',
@@ -59,7 +42,7 @@ export default function ProjectDetails() {
       ],
     },
     {
-      id: 4,
+      id: 3,
       src: '/web_project2_img.png',
       alt: 'web_project2_img',
       badge: 'Website',

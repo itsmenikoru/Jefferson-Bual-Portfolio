@@ -6,36 +6,44 @@ import Link from 'next/link';
 
 export default function ServicesPage() {
   const services_card = [
+   
     {
-      src: '/mobile_app_image.png',
-      alt: 'Mobile Development',
-      title: 'Mobile Application',
+      src: '/machine.png',
+      alt: 'Machine Learning',
+      title: 'Machine Learning',
       details: [
-        'User-Centered Design',
-        'Performance Optimization',
-        'Cross-Platform Compatibility',
+        'Python',
+        'Algorithms',
+        'More',
+      ],
+    }, 
+    {
+      src: '/analysis.png',
+      alt: 'Statistical Analysis',
+      title: 'Statistical Analysis',
+      details: [
+        'Excel',
+        'NumPy',
         'More',
       ],
     },
     {
-      src: '/web_app_image.png',
-      alt: 'Web Development',
-      title: 'Web Application',
+      src: '/visuals.png',
+      alt: 'Data Visualization',
+      title: 'Data Visualization',
       details: [
-        'Responsive Design',
-        'Performance Optimization',
-        'Security Best Practices',
+        'Power BI',
+        'Python Libraries',
         'More',
       ],
     },
     {
-      src: '/ui_wireframe_image.png',
-      alt: 'UI/UX',
-      title: 'UI/UX',
+      src: '/database.png',
+      alt: 'Database Management',
+      title: 'Database Management',
       details: [
-        'User-Centered Design',
-        'Consistency and Simplicity',
-        'Interaction Design and Feedback',
+        'SQL',
+        'ETL process',
         'More',
       ],
     },

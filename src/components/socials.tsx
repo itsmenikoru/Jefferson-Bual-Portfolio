@@ -9,7 +9,7 @@ export default function Socials() {
         <div className='rounded-full p-2 hover:bg-bg_hover duration-300'>
           <FaGithub
             size={25}
-            onClick={() => window.open('https://github.com/cocokhyle')}
+            onClick={() => window.open('https://github.com/jeffieee')}
           />
         </div>
       </div>
@@ -18,7 +18,7 @@ export default function Socials() {
           <FaLinkedin
             size={25}
             onClick={() =>
-              window.open('https://www.linkedin.com/in/yaneskhylematthewp/')
+              window.open('https://www.linkedin.com/in/jefferson12/')
             }
           />
         </div>
@@ -28,7 +28,7 @@ export default function Socials() {
           <FaFacebook
             size={25}
             onClick={() =>
-              window.open('https://www.facebook.com/YanesPogii.ko/')
+              window.open('https://www.facebook.com/FunTea12/')
             }
           />
         </div>

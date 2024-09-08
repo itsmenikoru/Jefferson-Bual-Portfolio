@@ -53,13 +53,13 @@ export default function Header() {
             href={'#home'}
             className='flex justify-center items-center gap-2'>
             <Image
-              src='/logo-wo-text.png'
+              src='/jeff_wo_text_logo.png'
               width={50}
               height={0}
               alt='Logo'
               className='animate-scaleIn'
             />
-            <h1 className='font-extrabold hidden md:flex'>Cocokyle</h1>
+            <h1 className='font-extrabold hidden md:flex'>Welcome!</h1>
           </Link>
           <div className='hidden md:flex gap-5 items-center font-medium text-[14px]'>
             {Menu.map((title, index) => (
