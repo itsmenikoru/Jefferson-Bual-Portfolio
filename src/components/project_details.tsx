@@ -9,9 +9,42 @@ export default function ProjectDetails() {
   const [currentIndex, setCurrentIndex] = useState(0);
 
   const projectDetails = [
-    
     {
       id: 1,
+      src: '/rnn_model.png',
+      alt: 'rnn_model',
+      badge: 'Model',
+      title: 'SimpleRNN Demographic Insight Model',
+      description:
+        ' The simpleRNN-based model was designed to analyze the demographic data of urban residents and generate tailored program recommendations. The model leverages recurrent neural networks to identify patterns and insights from demographic information, facilitating personalized program suggestions that cater to the specific needs of various resident groups.',
+      tools: [
+        
+        { src: '/python.png', alt: 'python' },
+        { src: '/sql.png', alt: 'sql' },
+        { src: '/excel.png', alt: 'excel' },
+        { src: '/github.png', alt: 'github' },
+       
+      ],
+    },
+
+    {
+      id: 2,
+      src: '/cnn_model.png',
+      alt: 'cnn_model',
+      badge: 'Model',
+      title: 'LeNet with Incecption Model for Learning Baybayin Script from Scratch',
+      description:
+        ' Creating a Baybayin character recognition model from scratch involves using a combination of LeNet and Inception architectures. LeNets simplicity and Inceptions powerful feature extraction are combined to build a neural network that can accurately recognize and classify Baybayin characters. This hybrid model leverages LeNet for basic image processing and Inception modules for detailed feature analysis, making it effective in learning and identifying the unique patterns of Baybayin script.',
+      tools: [
+        
+        { src: '/python.png', alt: 'python' },
+        { src: '/excel.png', alt: 'excel' },
+        { src: '/github.png', alt: 'github' },
+       
+      ],
+    },
+    {
+      id: 3,
       src: '/web_project1_img.png',
       alt: 'web-project1_img',
       badge: 'Website',
@@ -27,7 +60,7 @@ export default function ProjectDetails() {
       ],
     },
     {
-      id: 2,
+      id: 4,
       src: '/baya-mobile-project.png',
       alt: 'baya-mobile-project',
       badge: 'Mobile',
@@ -41,7 +74,7 @@ export default function ProjectDetails() {
       ],
     },
     {
-      id: 3,
+      id: 5,
       src: '/web_project2_img.png',
       alt: 'web_project2_img',
       badge: 'Website',
