@@ -11,6 +11,23 @@ export default function ProjectDetails() {
   const projectDetails = [
     {
       id: 1,
+      src: '/web_project2_img.png',
+      alt: 'web_project2_img',
+      badge: 'Website',
+      title: 'CityAssist: Local Resident Monitoring and Demographic-Based Program Recommendation System',
+      description:
+        'The Data-Driven Barangay Monitoring System improves local governance by utilizing real-time data collection and analysis, enhancing decision-making, ensuring efficient resource allocation, and improving community services, fostering transparency, accountability, and enhancing community welfare and safety.',
+      tools: [
+        { src: '/sql.png', alt: 'laravel' },
+        { src: '/python.png', alt: 'python_icon' },
+        { src: '/excel.png', alt: 'excel' },
+        { src: '/power.png', alt: 'powerbi' },
+        { src: '/github.png', alt: 'github' },
+      ],
+    },
+    
+    {
+      id: 2,
       src: '/rnn_model.png',
       alt: 'rnn_model',
       badge: 'Model',
@@ -26,23 +43,22 @@ export default function ProjectDetails() {
        
       ],
     },
-
-    {
-      id: 2,
-      src: '/cnn_model.png',
-      alt: 'cnn_model',
-      badge: 'Model',
-      title: 'LeNet with Incecption Model for Learning Baybayin Script from Scratch',
-      description:
-        ' Creating a Baybayin character recognition model from scratch involves using a combination of LeNet and Inception architectures. LeNets simplicity and Inceptions powerful feature extraction are combined to build a neural network that can accurately recognize and classify Baybayin characters. This hybrid model leverages LeNet for basic image processing and Inception modules for detailed feature analysis, making it effective in learning and identifying the unique patterns of Baybayin script.',
-      tools: [
+    // {
+    //   id: 3,
+    //   src: '/cnn_model.png',
+    //   alt: 'cnn_model',
+    //   badge: 'Model',
+    //   title: 'LeNet with Incecption Model for Learning Baybayin Script from Scratch',
+    //   description:
+    //     ' Creating a Baybayin character recognition model from scratch involves using a combination of LeNet and Inception architectures. LeNets simplicity and Inceptions powerful feature extraction are combined to build a neural network that can accurately recognize and classify Baybayin characters. This hybrid model leverages LeNet for basic image processing and Inception modules for detailed feature analysis, making it effective in learning and identifying the unique patterns of Baybayin script.',
+    //   tools: [
         
-        { src: '/python.png', alt: 'python' },
-        { src: '/excel.png', alt: 'excel' },
-        { src: '/github.png', alt: 'github' },
+    //     { src: '/python.png', alt: 'python' },
+    //     { src: '/excel.png', alt: 'excel' },
+    //     { src: '/github.png', alt: 'github' },
        
-      ],
-    },
+    //   ],
+    // },
     {
       id: 3,
       src: '/web_project1_img.png',
@@ -73,22 +89,7 @@ export default function ProjectDetails() {
         { src: '/github.png', alt: 'github' },
       ],
     },
-    {
-      id: 5,
-      src: '/web_project2_img.png',
-      alt: 'web_project2_img',
-      badge: 'Website',
-      title: 'CityAssist: Local Resident Monitoring and Demographic-Based Program Recommendation System',
-      description:
-        'The Data-Driven Barangay Monitoring System improves local governance by utilizing real-time data collection and analysis, enhancing decision-making, ensuring efficient resource allocation, and improving community services, fostering transparency, accountability, and enhancing community welfare and safety.',
-      tools: [
-        { src: '/sql.png', alt: 'laravel' },
-        { src: '/python.png', alt: 'python_icon' },
-        { src: '/excel.png', alt: 'excel' },
-        { src: '/power.png', alt: 'powerbi' },
-        { src: '/github.png', alt: 'github' },
-      ],
-    },
+   
   ];
 
   const handleNext = () => {

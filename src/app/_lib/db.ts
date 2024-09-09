@@ -1,7 +1,24 @@
 export const project_details = [
-  
   {
     id: 1,
+    name: 'CityAssist: Local Resident Monitoring and Demographic-Based Program Recommendation System',
+    link: [
+      '1YNSdJceEyLU5wwyZi3a7Rc38sufTdlZu',
+      '1vxqP_rZ3K-U1sbAl5BITdK3vHs0jfXGI',
+      '18zf8_ot7D3mtqTV7_x-mHJC-h9n8tewx',
+      '1b8P449NrhIRhKCJsTJpCWYu_h05tF_-C',
+      '1UsDPu8tNUDHuN755tx3cb1N12UoQnea0',
+      '1JdRda2o4msOqVpXpLxMIi0zENnRi7Ojq',
+      '1DlFIRgJlLtSODwpXOYzvva3Bi4gfEtXz',
+      '1t5YyteoVL17VNTNCFcx0wxLjYAQNiCMr',
+      '1VdQuYVbE_niDDaP1HGq-wkd-JRYH_vbP',
+      '1Yus1F_IKK_3_NmfuMAD1GiIyM0NTygqB',
+    ],
+    type: 'web',
+    github_link: 'https://github.com/cocokhyle/DataDriven',
+  },
+  {
+    id: 2,
     name: 'SimpleRNN Demographic Insight Model',
     link: [
       '1MbqO9jBSrcJql47HBR9aQ8d4H86TyE06',
@@ -14,16 +31,16 @@ export const project_details = [
     github_link: 'https://github.com/jeffieee/SimpleRNN-model/blob/f8f0c930b8ccd87bf8582dcae90da8dd22ae32c7/SimpleRNN.ipynb',
   },
 
-  {
-    id: 2,
-    name: 'LeNet with Incecption Model for Learning Baybayin Script from Scratch',
-    link: [
-      //to follow
+  // {
+  //   id: 3,
+  //   name: 'LeNet with Incecption Model for Learning Baybayin Script from Scratch',
+  //   link: [
+  //     //to follow
       
-    ],
-    type: 'model',
-    github_link: 'https://github.com/jeffieee/My-Projects/blob/8a48d7c822aa201e2f15606f02b1520d2c46ea47/model.py',
-  },
+  //   ],
+  //   type: 'model',
+  //   github_link: 'https://github.com/jeffieee/My-Projects/blob/8a48d7c822aa201e2f15606f02b1520d2c46ea47/model.py',
+  // },
   {
     id: 3,
     name: 'Web-Based Student Academic Performance Monitoring System for Banay-Banay Elementary School',
@@ -62,22 +79,5 @@ export const project_details = [
     type: 'mobile',
     github_link: 'https://github.com/jeffieee/My-Projects/blob/6be6e8515f639191dcf9e1639eae90423b0fb31f/README.md',
   },
-  {
-    id: 5,
-    name: 'CityAssist: Local Resident Monitoring and Demographic-Based Program Recommendation System',
-    link: [
-      '1YNSdJceEyLU5wwyZi3a7Rc38sufTdlZu',
-      '1vxqP_rZ3K-U1sbAl5BITdK3vHs0jfXGI',
-      '18zf8_ot7D3mtqTV7_x-mHJC-h9n8tewx',
-      '1b8P449NrhIRhKCJsTJpCWYu_h05tF_-C',
-      '1UsDPu8tNUDHuN755tx3cb1N12UoQnea0',
-      '1JdRda2o4msOqVpXpLxMIi0zENnRi7Ojq',
-      '1DlFIRgJlLtSODwpXOYzvva3Bi4gfEtXz',
-      '1t5YyteoVL17VNTNCFcx0wxLjYAQNiCMr',
-      '1VdQuYVbE_niDDaP1HGq-wkd-JRYH_vbP',
-      '1Yus1F_IKK_3_NmfuMAD1GiIyM0NTygqB',
-    ],
-    type: 'web',
-    github_link: 'https://github.com/cocokhyle/DataDriven',
-  },
+  
 ];
