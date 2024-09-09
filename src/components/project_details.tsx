@@ -48,7 +48,7 @@ export default function ProjectDetails() {
       src: '/web_project1_img.png',
       alt: 'web-project1_img',
       badge: 'Website',
-      title: 'Student Academic Performance Monitoring System',
+      title: 'Web-Based Student Academic Performance Monitoring System for Banay-Banay Elementary School',
       description:
         ' A web-based student academic performance monitoring systems goal is to provide a centralized platform for academic institutions to monitor and manage their students academic performance. The system provides real-time data on student performance and progress to teachers, administrators, and other authorized personnel, allowing them to make informed decisions about student learning and support.',
       tools: [
@@ -64,7 +64,7 @@ export default function ProjectDetails() {
       src: '/baya-mobile-project.png',
       alt: 'baya-mobile-project',
       badge: 'Mobile',
-      title: 'Baybayin Quiz Game using CNN algorithm',
+      title: 'BayaScript: Convolutional Neural Networks Driven Character Recognition In a Mobile Application for Learning BayBayin',
       description:
         'A mobile educational app aimed at promoting the Baybayin script, an ancient Philippine writing system. The app features interactive lessons, quizzes, writing exercises, and a notepad, using Convolutional Neural Networks for improved character recognition.',
       tools: [
@@ -78,7 +78,7 @@ export default function ProjectDetails() {
       src: '/web_project2_img.png',
       alt: 'web_project2_img',
       badge: 'Website',
-      title: 'Data-Driven Brgy. Monitoring System',
+      title: 'CityAssist: Local Resident Monitoring and Demographic-Based Program Recommendation System',
       description:
         'The Data-Driven Barangay Monitoring System improves local governance by utilizing real-time data collection and analysis, enhancing decision-making, ensuring efficient resource allocation, and improving community services, fostering transparency, accountability, and enhancing community welfare and safety.',
       tools: [
