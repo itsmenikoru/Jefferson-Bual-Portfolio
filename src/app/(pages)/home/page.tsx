@@ -14,7 +14,7 @@ export default function LandingPage() {
           <div className='flex flex-col justify-center items-center h-full relative'>
             <div className=' lg:p-5 p-5 '>
               <div className='flex gap-1 items-center animate-slideInLeft1'>
-                <Certified badge='Data Analyst' />
+                <Certified badge='Bachelor of Science in Computer Science (BSCS) graduate' />
               </div>
               <div>
                 <h1 className='font-bold xl:text-[50px] lg:text-[40px] md:text-[30px] text-[30px] line-clamp-none m-0 animate-slideInLeft2'>
