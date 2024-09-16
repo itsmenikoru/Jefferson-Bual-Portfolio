@@ -9,8 +9,24 @@ export default function ProjectDetails() {
   const [currentIndex, setCurrentIndex] = useState(0);
 
   const projectDetails = [
+
     {
       id: 1,
+      src: '/mpox.png',
+      alt: 'mpox',
+      badge: 'Data Analytics',
+      title: 'Monkeypox Outbreak Data Analysis',
+      description: 'This dashboard presents insights from the Monkeypox outbreak, featuring clean and well-explored data on infection trends, regions affected, and demographic details. It provides clear visualizations and charts to help track the virus spread and impact, offering valuable information for analysis and decision-making.',
+      tools: [
+        { src: '/sql.png', alt: 'sql' },
+        { src: '/python.png', alt: 'python_icon' },
+        { src: '/excel.png', alt: 'excel' },
+        { src: '/power.png', alt: 'powerbi' },
+        { src: '/github.png', alt: 'github' },
+      ],
+    },
+    {
+      id: 2,
       src: '/web_project2_img.png',
       alt: 'web_project2_img',
       badge: 'Website',
@@ -27,7 +43,7 @@ export default function ProjectDetails() {
     },
     
     {
-      id: 2,
+      id: 3,
       src: '/rnn_model.png',
       alt: 'rnn_model',
       badge: 'Model',
@@ -60,7 +76,7 @@ export default function ProjectDetails() {
     //   ],
     // },
     {
-      id: 3,
+      id: 4,
       src: '/web_project1_img.png',
       alt: 'web-project1_img',
       badge: 'Website',
@@ -76,7 +92,7 @@ export default function ProjectDetails() {
       ],
     },
     {
-      id: 4,
+      id: 5,
       src: '/baya-mobile-project.png',
       alt: 'baya-mobile-project',
       badge: 'Mobile',

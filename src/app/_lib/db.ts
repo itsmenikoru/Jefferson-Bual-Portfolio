@@ -1,6 +1,20 @@
 export const project_details = [
+
   {
     id: 1,
+    name: 'Monkeypox Outbreak Data Analysis',
+    link: [
+      '1DrQ0v-lnPIme0Zig111pyD1eiCohvZvJ',
+      '17e3GO5LVOAjfGStTF4I8RScDcP3lhHnA',
+      '1yRKy-xrEVfuals63U62MyZRCQrRyyQQj',
+      '1tH4SNoChYxFhN8H7tuxTWCeNHPEp1JeP',
+      '1BuWSU82u2GuJtTLgGvAi0xj01Xdh3jW9',
+    ],
+    type: 'data analysis',
+    github_link: 'https://github.com/jeffieee/My-data-analysis-projects/tree/d18a44744d57c6caf33634b02612c5c61e14200d/mpox_analysis_2021-2024',
+  },
+  {
+    id: 2,
     name: 'CityAssist: Local Resident Monitoring and Demographic-Based Program Recommendation System',
     link: [
       '1YNSdJceEyLU5wwyZi3a7Rc38sufTdlZu',
@@ -18,7 +32,7 @@ export const project_details = [
     github_link: 'https://github.com/cocokhyle/DataDriven',
   },
   {
-    id: 2,
+    id: 3,
     name: 'SimpleRNN Demographic Insight Model',
     link: [
       '1MbqO9jBSrcJql47HBR9aQ8d4H86TyE06',
@@ -42,7 +56,7 @@ export const project_details = [
   //   github_link: 'https://github.com/jeffieee/My-Projects/blob/8a48d7c822aa201e2f15606f02b1520d2c46ea47/model.py',
   // },
   {
-    id: 3,
+    id: 4,
     name: 'Web-Based Student Academic Performance Monitoring System for Banay-Banay Elementary School',
     link: [
       '1fJPClRSSf2-biD5ucry2-Ddn6JR3n0QY',
@@ -56,7 +70,7 @@ export const project_details = [
     github_link: 'https://github.com/jeffieee/My-Projects/blob/66a6c4ee6f056c0c5780781fa12cf9b96973adf7/README.md',
   },
   {
-    id: 4,
+    id: 5,
     name: 'BayaScript: Convolutional Neural Networks Driven Character Recognition In a Mobile Application for Learning BayBayin',
     link: [
       '1TKlxOKQNZkazynes-OaYzz64IqmR3_9V',

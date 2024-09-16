@@ -11,13 +11,13 @@ export default function SkillsExpPage() {
 
   const experience = [
     {
-      title: 'Back End Web Developer',
-      year: '2024',
+      title: 'Back End Developer Intern',
+      year: 'Feb 2024 - April 2024',
       description: 'Pixel8 Web Solutions & Consultancy Inc.',
     },
     {
       title: 'Project-based Data Analyst',
-      year: '2023 - 2024',
+      year: 'May 2024 - July 2024',
       description: 'Client based projects',
     },
   ];
