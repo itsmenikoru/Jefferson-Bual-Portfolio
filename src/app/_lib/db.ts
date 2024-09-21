@@ -2,6 +2,23 @@ export const project_details = [
 
   {
     id: 1,
+    name: 'Healthcare Facility Dashboard: Key Insights',
+    link: [
+      '1yjRCiqzK3jN-SevtytY9Eo6rqV75k2Vp/view?usp=sharing',
+      '1PddLGwjP26zivb4TWVhbB0Tjq4Inde9w/view?usp=sharing',
+      '1Pw-TfsFmuvRDnA4HgIyeNYk7sZj9wPos/view?usp=sharing',
+      '1WYaP4vd0ebGSQjsSEsqPo5XooCuceY00/view?usp=sharing',
+      '1sWcuoGLdhowL-by06miB3o2IHWL0PQ2g/view?usp=sharing',
+      '1wmc4ACZpHu0Ke0SNmF2TqYiChM_tV4ZS/view?usp=sharing',
+      '1f90Rz4SitdjDt2X0kqFIuGtEBDPIFqGp/view?usp=sharing',
+      '1k8WbGJKIiUa_cDdypbJIzu8_IqTTb2Mq/view?usp=sharing',
+      '1aqW4It7PrnVB9t2yG5b-Cl6vf9AZlnvU/view?usp=sharing',
+    ],
+    type: 'data analysis',
+    github_link: 'https://github.com/jeffieee/My-data-analysis-projects/tree/57f3034b6c79fab64b3b0c4dc2678411e0497848/healthcare_analysis',
+  },
+  {
+    id: 2,
     name: 'Monkeypox Outbreak Data Analysis',
     link: [
       '1DrQ0v-lnPIme0Zig111pyD1eiCohvZvJ',
@@ -14,7 +31,7 @@ export const project_details = [
     github_link: 'https://github.com/jeffieee/My-data-analysis-projects/tree/d18a44744d57c6caf33634b02612c5c61e14200d/mpox_analysis_2021-2024',
   },
   {
-    id: 2,
+    id: 3,
     name: 'CityAssist: Local Resident Monitoring and Demographic-Based Program Recommendation System',
     link: [
       '1YNSdJceEyLU5wwyZi3a7Rc38sufTdlZu',
@@ -32,7 +49,7 @@ export const project_details = [
     github_link: 'https://github.com/cocokhyle/DataDriven',
   },
   {
-    id: 3,
+    id: 4,
     name: 'SimpleRNN Demographic Insight Model',
     link: [
       '1MbqO9jBSrcJql47HBR9aQ8d4H86TyE06',
@@ -56,7 +73,7 @@ export const project_details = [
   //   github_link: 'https://github.com/jeffieee/My-Projects/blob/8a48d7c822aa201e2f15606f02b1520d2c46ea47/model.py',
   // },
   {
-    id: 4,
+    id: 5,
     name: 'Web-Based Student Academic Performance Monitoring System for Banay-Banay Elementary School',
     link: [
       '1fJPClRSSf2-biD5ucry2-Ddn6JR3n0QY',
@@ -70,7 +87,7 @@ export const project_details = [
     github_link: 'https://github.com/jeffieee/My-Projects/blob/66a6c4ee6f056c0c5780781fa12cf9b96973adf7/README.md',
   },
   {
-    id: 5,
+    id: 6,
     name: 'BayaScript: Convolutional Neural Networks Driven Character Recognition In a Mobile Application for Learning BayBayin',
     link: [
       '1TKlxOKQNZkazynes-OaYzz64IqmR3_9V',

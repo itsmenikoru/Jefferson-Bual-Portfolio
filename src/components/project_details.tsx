@@ -12,6 +12,21 @@ export default function ProjectDetails() {
 
     {
       id: 1,
+      src: '/healthcare.png',
+      alt: 'healthcare',
+      badge: 'Data Analytics',
+      title: 'Healthcare Facility Dashboard: Key Insights',
+      description: 'This Healthcare Analytics Dashboard, built using Power BI, offers a clear and interactive view of patient data, admissions, and financial metrics. Utilizing data exploration and thorough data cleaning techniques, it enables healthcare administrators and decision-makers to analyze patient demographics, track admission trends, and monitor billing across hospitals. With KPIs, customizable filters, and insightful visualizations, the dashboard supports data-driven decisions to optimize healthcare performance.',
+      tools: [
+        { src: '/sql.png', alt: 'sql' },
+        { src: '/python.png', alt: 'python_icon' },
+        { src: '/excel.png', alt: 'excel' },
+        { src: '/power.png', alt: 'powerbi' },
+        { src: '/github.png', alt: 'github' },
+      ],
+    },
+    {
+      id: 2,
       src: '/mpox.png',
       alt: 'mpox',
       badge: 'Data Analytics',
@@ -26,7 +41,7 @@ export default function ProjectDetails() {
       ],
     },
     {
-      id: 2,
+      id: 3,
       src: '/web_project2_img.png',
       alt: 'web_project2_img',
       badge: 'Website',
@@ -43,7 +58,7 @@ export default function ProjectDetails() {
     },
     
     {
-      id: 3,
+      id: 4,
       src: '/rnn_model.png',
       alt: 'rnn_model',
       badge: 'Model',
@@ -76,7 +91,7 @@ export default function ProjectDetails() {
     //   ],
     // },
     {
-      id: 4,
+      id: 5,
       src: '/web_project1_img.png',
       alt: 'web-project1_img',
       badge: 'Website',
@@ -92,7 +107,7 @@ export default function ProjectDetails() {
       ],
     },
     {
-      id: 5,
+      id: 6,
       src: '/baya-mobile-project.png',
       alt: 'baya-mobile-project',
       badge: 'Mobile',
