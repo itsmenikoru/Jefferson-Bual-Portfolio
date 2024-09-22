@@ -11,11 +11,6 @@ export default function SkillsExpPage() {
 
   const experience = [
     {
-      title: 'Back End Developer Intern',
-      year: 'Feb 2024 - April 2024',
-      description: 'Pixel8 Web Solutions & Consultancy Inc.',
-    },
-    {
       title: 'Project-based Data Analyst',
       year: 'May 2024 - July 2024',
       description: 'Client based projects',
@@ -69,13 +64,6 @@ export default function SkillsExpPage() {
       src: '/php.png',
       alt: 'react',
       title: 'PHP',
-      description:
-        '',
-    },
-    {
-      src: '/java.png',
-      alt: 'react',
-      title: 'Java',
       description:
         '',
     },
