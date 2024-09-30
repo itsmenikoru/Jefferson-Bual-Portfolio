@@ -18,7 +18,7 @@ export default function Socials() {
           <FaLinkedin
             size={25}
             onClick={() =>
-              window.open('https://www.linkedin.com/in/jefferson12/')
+              window.open('https://www.linkedin.com/in/jeffersonbual/')
             }
           />
         </div>
