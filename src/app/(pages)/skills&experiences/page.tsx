@@ -11,9 +11,9 @@ export default function SkillsExpPage() {
 
   const experience = [
     {
-      title: 'Project-based Data Analyst',
-      year: 'May 2024 - July 2024',
-      description: 'Client based projects',
+      title: 'OIC - Reshipper',
+      year: 'Mar 2020 - Jan 2021',
+      description: 'Managed a team and tracked performance using Excel to maintain transactions and monitor KPIs.',
     },
   ];
   const frameworks = [
