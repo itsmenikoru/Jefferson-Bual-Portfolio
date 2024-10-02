@@ -39,6 +39,13 @@ export default function SkillsExpPage() {
         '',
     },
     {
+      src: '/postgre.png',
+      alt: 'react',
+      title: 'PostgreSQL',
+      description:
+        '',
+    },
+    {
       src: '/python.png',
       alt: 'react',
       title: 'Python',
@@ -61,9 +68,9 @@ export default function SkillsExpPage() {
         '',
     },
     {
-      src: '/php.png',
+      src: '/vs.png',
       alt: 'react',
-      title: 'PHP',
+      title: 'Visual Studio Code',
       description:
         '',
     },
@@ -93,7 +100,7 @@ export default function SkillsExpPage() {
               </div>
             </div>
             <div className=''>
-              <DetailsTitle title='Skills' bg_color='white' />
+              <DetailsTitle title='Tools' bg_color='white' />
               <div className='grid grid-cols-4 gap-3 h-full mt-3'>
                 {frameworks.map((data, index) => (
                   <div
