@@ -8,15 +8,15 @@ export default function ServicesPage() {
   const services_card = [
    
     {
-      src: '/machine.png',
-      alt: 'Machine Learning',
-      title: 'Machine Learning',
+      src: '/database.png',
+      alt: 'Database Management',
+      title: 'Database Management',
       details: [
-        'Python',
-        'Algorithms',
+        'SQL',
+        'ETL process',
         'More',
       ],
-    }, 
+    },
     {
       src: '/analysis.png',
       alt: 'Statistical Analysis',
@@ -37,16 +37,7 @@ export default function ServicesPage() {
         'More',
       ],
     },
-    {
-      src: '/database.png',
-      alt: 'Database Management',
-      title: 'Database Management',
-      details: [
-        'SQL',
-        'ETL process',
-        'More',
-      ],
-    },
+    
   ];
   return (
     <section>

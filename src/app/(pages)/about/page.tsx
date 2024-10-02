@@ -29,9 +29,9 @@ export default function AboutPage() {
               <div className='flex flex-col gap-3 '>
                 <DetailsTitle title='Specialization' bg_color='black' />
                 <Details
-                  title='Machine Learning'
+                  title='Database Management'
                   isHide='true'
-                  description='Specialized in applying simple predictive models to forecast trends and make recommendations.'
+                  description='Specialized in SQL for querying, joining, and aggregating data from databases.'
                 />
                 <Details
                   title='Statistical Analysis'
@@ -43,11 +43,7 @@ export default function AboutPage() {
                   isHide='true'
                   description='Specialized in presenting data visually using graphs, charts, and dashboards.'
                 />
-                <Details
-                  title='Database Management'
-                  isHide='true'
-                  description='Specialized in SQL for querying, joining, and aggregating data from databases.'
-                />
+                
                 
                 
                 

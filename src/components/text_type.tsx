@@ -2,7 +2,7 @@
 import { ReactTyped } from 'react-typed';
 
 export default function TypeAnimation() {
-  const Specialization = ['Machine Learning','Statistical Analysis','Data Visiualization', 'Database Management'];
+  const Specialization = ['Database Management','Statistical Analysis','Data Visiualization'];
 
   return (
     <div className='flex gap-1  my-2 w-full'>
