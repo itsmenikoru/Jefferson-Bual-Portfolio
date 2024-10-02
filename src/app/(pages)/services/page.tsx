@@ -12,8 +12,8 @@ export default function ServicesPage() {
       alt: 'Database Management',
       title: 'Database Management',
       details: [
-        'SQL',
-        'ETL process',
+        'MySQL',
+        'PostgreSQL',
         'More',
       ],
     },
