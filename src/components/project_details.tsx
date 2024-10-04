@@ -9,9 +9,22 @@ export default function ProjectDetails() {
   const [currentIndex, setCurrentIndex] = useState(0);
 
   const projectDetails = [
-
     {
       id: 1,
+      src: '/ecommerce.png',
+      alt: 'ecommerce',
+      badge: 'Data Analytics',
+      title: 'E-Commerce Insights: An Exploratory Data Analysis on Purchasing Trends',
+      description: 'Performed an exploratory data analysis on an e-commerce dataset using Python, focusing on data cleaning and extracting insights into customer behavior and sales trends. Developed visualizations, including bar charts, pie charts, and time series plots, utilizing Python libraries like Matplotlib and Seaborn to present key findings. Identified demographic and purchasing patterns to guide targeted marketing efforts based on gender, age, and location, providing actionable insights for optimizing sales strategies.',
+      tools: [
+        { src: '/python.png', alt: 'python_icon' },
+        { src: '/excel.png', alt: 'excel' },
+        { src: '/github.png', alt: 'github' },
+      ],
+    },
+
+    {
+      id: 2,
       src: '/healthcare.png',
       alt: 'healthcare',
       badge: 'Data Analytics',
@@ -26,7 +39,7 @@ export default function ProjectDetails() {
       ],
     },
     {
-      id: 2,
+      id: 3,
       src: '/mpox.png',
       alt: 'mpox',
       badge: 'Data Analytics',
@@ -41,7 +54,7 @@ export default function ProjectDetails() {
       ],
     },
     {
-      id: 3,
+      id: 4,
       src: '/web_project2_img.png',
       alt: 'web_project2_img',
       badge: 'Website',
@@ -58,7 +71,7 @@ export default function ProjectDetails() {
     },
     
     {
-      id: 4,
+      id: 5,
       src: '/rnn_model.png',
       alt: 'rnn_model',
       badge: 'Model',
@@ -91,7 +104,7 @@ export default function ProjectDetails() {
     //   ],
     // },
     {
-      id: 5,
+      id: 6,
       src: '/web_project1_img.png',
       alt: 'web-project1_img',
       badge: 'Website',
@@ -107,7 +120,7 @@ export default function ProjectDetails() {
       ],
     },
     {
-      id: 6,
+      id: 7,
       src: '/baya-mobile-project.png',
       alt: 'baya-mobile-project',
       badge: 'Mobile',
