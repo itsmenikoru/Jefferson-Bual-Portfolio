@@ -20,6 +20,7 @@ export default function ProjectDetails() {
         { src: '/python.png', alt: 'python_icon' },
         { src: '/excel.png', alt: 'excel' },
         { src: '/github.png', alt: 'github' },
+        { src: '/gpt.png', alt: 'chatgpt' },
       ],
     },
 
@@ -36,6 +37,7 @@ export default function ProjectDetails() {
         { src: '/excel.png', alt: 'excel' },
         { src: '/power.png', alt: 'powerbi' },
         { src: '/github.png', alt: 'github' },
+        { src: '/gpt.png', alt: 'chatgpt' },
       ],
     },
     {
@@ -51,6 +53,7 @@ export default function ProjectDetails() {
         { src: '/excel.png', alt: 'excel' },
         { src: '/power.png', alt: 'powerbi' },
         { src: '/github.png', alt: 'github' },
+        { src: '/gpt.png', alt: 'chatgpt' },
       ],
     },
     {
@@ -67,6 +70,7 @@ export default function ProjectDetails() {
         { src: '/excel.png', alt: 'excel' },
         { src: '/power.png', alt: 'powerbi' },
         { src: '/github.png', alt: 'github' },
+        { src: '/gpt.png', alt: 'chatgpt' },
       ],
     },
     
@@ -84,6 +88,7 @@ export default function ProjectDetails() {
         { src: '/sql.png', alt: 'sql' },
         { src: '/excel.png', alt: 'excel' },
         { src: '/github.png', alt: 'github' },
+        { src: '/gpt.png', alt: 'chatgpt' },
        
       ],
     },
@@ -116,6 +121,7 @@ export default function ProjectDetails() {
         { src: '/php.png', alt: 'php' },
         { src: '/sql.png', alt: 'sql' },
         { src: '/github.png', alt: 'github' },
+        { src: '/gpt.png', alt: 'chatgpt' },
        
       ],
     },
@@ -131,6 +137,7 @@ export default function ProjectDetails() {
         { src: '/java.png', alt: 'java' },
         { src: '/python.png', alt: 'python_icon' },
         { src: '/github.png', alt: 'github' },
+        { src: '/gpt.png', alt: 'chatgpt' },
       ],
     },
    
