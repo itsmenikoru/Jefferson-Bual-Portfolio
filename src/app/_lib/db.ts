@@ -2,6 +2,29 @@ export const project_details = [
 
   {
     id: 1,
+    name: 'E-Commerce Insights: An Exploratory Data Analysis on Purchasing Trends',
+    link: [
+      '11G85HixJY0MOPKBdYZtzOu8Ew7SdmUdP',
+      '1C-alJPq96A2k1rXNTUPL0rgHzMa1yM9_',
+      '1kYam0wBs7TN7dDK90hcSL5nEL2r7UkEV',
+      '19e1BXxK9bHc3kCUIZ6FRtSZ16foD62K_',
+      '1EhNS80tXfOVW_IrU7WODGWNihB8gOpSV',
+      '11mdmLpNjWuQXcR90NHrMbgaYWfGIxY9I',
+      '1IDyKy0y9J9R8BCcM6d6nx0v9E96elS3e',
+      '1FMznIKYo_jNPatfUXWPfRM05tdXnEghI',
+      '1DaeomsuT1Vb4E4s7gIvN5oHGa5CF8bfu',
+      '1-K5YnIdRxK5yTnM3Tt1u9iBSmG9PZug9',
+      '1EJUm-8Hq2wl9SmsKMV0a4mPNKNsPsg5n',
+      '1-n3MpnGPg3K1q98E_klya2U8d8OawGbK',
+      '1UY513RfpSGVzyW2oDjrH4nxdHfi4LCQs',
+      '1XMDWvoUEd-8X6FC3YliaN3bbKzzIMCcG',
+    ],
+    type: 'data analysis',
+    github_link: 'https://github.com/jeffieee/My-data-analysis-projects/tree/70df068ffb93a8219a180c8d09a5b5ecf72ca7d5/ecommerce_analysis',
+  },
+
+  {
+    id: 2,
     name: 'Healthcare Facility Dashboard: Key Insights',
     link: [
       '1yjRCiqzK3jN-SevtytY9Eo6rqV75k2Vp',
@@ -18,7 +41,7 @@ export const project_details = [
     github_link: 'https://github.com/jeffieee/My-data-analysis-projects/tree/57f3034b6c79fab64b3b0c4dc2678411e0497848/healthcare_analysis',
   },
   {
-    id: 2,
+    id: 3,
     name: 'Monkeypox Outbreak Data Analysis',
     link: [
       '1DrQ0v-lnPIme0Zig111pyD1eiCohvZvJ',
@@ -31,7 +54,7 @@ export const project_details = [
     github_link: 'https://github.com/jeffieee/My-data-analysis-projects/tree/d18a44744d57c6caf33634b02612c5c61e14200d/mpox_analysis_2021-2024',
   },
   {
-    id: 3,
+    id: 4,
     name: 'CityAssist: Local Resident Monitoring and Demographic-Based Program Recommendation System',
     link: [
       '1YNSdJceEyLU5wwyZi3a7Rc38sufTdlZu',
@@ -49,7 +72,7 @@ export const project_details = [
     github_link: 'https://github.com/cocokhyle/DataDriven',
   },
   {
-    id: 4,
+    id: 5,
     name: 'SimpleRNN Demographic Insight Model',
     link: [
       '1MbqO9jBSrcJql47HBR9aQ8d4H86TyE06',
@@ -73,7 +96,7 @@ export const project_details = [
   //   github_link: 'https://github.com/jeffieee/My-Projects/blob/8a48d7c822aa201e2f15606f02b1520d2c46ea47/model.py',
   // },
   {
-    id: 5,
+    id: 6,
     name: 'Web-Based Student Academic Performance Monitoring System for Banay-Banay Elementary School',
     link: [
       '1fJPClRSSf2-biD5ucry2-Ddn6JR3n0QY',
@@ -87,7 +110,7 @@ export const project_details = [
     github_link: 'https://github.com/jeffieee/My-Projects/blob/66a6c4ee6f056c0c5780781fa12cf9b96973adf7/README.md',
   },
   {
-    id: 6,
+    id: 7,
     name: 'BayaScript: Convolutional Neural Networks Driven Character Recognition In a Mobile Application for Learning BayBayin',
     link: [
       '1TKlxOKQNZkazynes-OaYzz64IqmR3_9V',
