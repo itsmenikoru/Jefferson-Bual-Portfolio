@@ -3,6 +3,7 @@ import Description from '@/components/description';
 import Header from '@/components/header';
 import Socials from '@/components/socials';
 import TypeAnimation from '@/components/text_type';
+import TypeAnimation2 from '@/components/company';
 import Image from 'next/image';
 import Link from 'next/link';
 
@@ -14,14 +15,21 @@ export default function LandingPage() {
           <div className='flex flex-col justify-center items-center h-full relative'>
             <div className=' lg:p-5 p-5 '>
               <div className='flex gap-1 items-center animate-slideInLeft1'>
-                <Certified badge='Bachelor of Science in Computer Science (BSCS) graduate' />
+                <Certified badge='Junior Data Analyst at PhilWeb Corporation' />
+                
+               
+           
               </div>
               <div>
+                {/* <div className=' animate-slideInLeft4'>
+                  <TypeAnimation2 />
+               
+                </div> */}
                 <h1 className='font-bold xl:text-[50px] lg:text-[40px] md:text-[30px] text-[30px] line-clamp-none m-0 animate-slideInLeft2'>
                   Hello! I ‘m
                 </h1>
                 <h1 className='font-bold xl:text-[70px] lg:text-[50px] md:text-[45px] text-[45px] m-0 animate-slideInLeft3'>
-                  Jefferson Bual
+                  Jefferson C. Bual
                 </h1>
                 <div className=' animate-slideInLeft4'>
                   <TypeAnimation />
