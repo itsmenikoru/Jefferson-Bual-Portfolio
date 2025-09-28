@@ -131,6 +131,7 @@ export default function SkillsExpPage() {
               </div>
             </div>
            <div className='grid grid-cols-4 gap-3 h-full mt-3'>
+            <DetailsTitle title='Programming Languages and Tools' bg_color='white' />
               {frameworks.map((data, index) => (
                 <div
                   key={index}
